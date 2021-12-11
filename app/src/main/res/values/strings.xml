@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Resep Makanan</string>
+    <string name="search">Search</string>
+    <string name="hai_word">Hai Member Resepku\nLooking for your\nfavorite meal\nMoch. Irfan Prayoga(1918096)</string>
+    <string name="categories">Categories</string>
+    <string name="instruction">Instruction</string>
+    <string name="ingredients">Ingredients</string>
+</resources>

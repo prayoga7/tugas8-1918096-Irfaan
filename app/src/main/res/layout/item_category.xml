@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:id="@+id/mcv"
+    android:focusable="true"
+    app:cardBackgroundColor="@color/bg_item_category"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="2dp"
+    app:cardMaxElevation="2dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_toStartOf="@id/iv_thumb"
+            android:gravity="start"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            tools:text="Cumi cumit" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_thumb"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="-20dp"
+            tools:src="@drawable/example" />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
